@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# Project Specific
+.cursor/
+data/output/
+data/translation_memory.db
+logs/
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db 
