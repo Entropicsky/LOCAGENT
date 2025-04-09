@@ -22,9 +22,9 @@ SUPPORTED_LANGUAGES = [
 ]
 
 # File paths
-RULESET_DIR = os.environ.get("RULESET_DIR", "./rulesets")
-# Spec uses ./rulesets/global_ruleset.md, adjusting based on dir structure in Spec 10.1
-GLOBAL_RULESET_PATH = os.environ.get("GLOBAL_RULESET_PATH", os.path.join(RULESET_DIR, "smite2/global_ruleset.md"))
+RULESET_DIR = os.environ.get("RULESET_DIR", "./rules")
+# Update to current structure which has global_ruleset.md directly in the rules directory
+GLOBAL_RULESET_PATH = os.environ.get("GLOBAL_RULESET_PATH", os.path.join(RULESET_DIR, "global_ruleset.md"))
 TRANSLATION_MEMORY_DB = os.environ.get("TRANSLATION_MEMORY_DB", "./data/translation_memory.db")
 ERROR_LOG_FILE = os.environ.get("ERROR_LOG_FILE", "./logs/translation_errors.log")
 
